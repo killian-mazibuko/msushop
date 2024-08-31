@@ -11,9 +11,9 @@ const Meta = ({ title, description, keywords }) => {
 };
 
 Meta.defaultProps = {
-  title: 'Welcome To ZiFast Store',
+  title: 'Welcome To MSU Store',
   description: 'We sell the best products for cheap',
-  keywords: 'electronics, buy electronics, cheap electroincs',
+  keywords: 'Electronics, Grocery, IT',
 };
 
 export default Meta;
