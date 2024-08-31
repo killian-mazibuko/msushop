@@ -35,8 +35,8 @@ const Header = () => {
       <Navbar bg='primary' variant='dark' expand='lg' collapseOnSelect>
         <Container>
           <Navbar.Brand as={Link} to='/'>
-            <img src='images/logo.png' />
-            MSU Store
+            <img src='images/logo.png' style={{height:50, width: 50}}/>
+            {'  '}MSU Store
           </Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
           <Navbar.Collapse id='basic-navbar-nav'>
